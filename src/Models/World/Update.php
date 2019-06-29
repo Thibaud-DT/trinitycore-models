@@ -5,7 +5,7 @@
  * Date: Wed, 21 Dec 2016 15:07:57 +0000.
  */
 
-namespace ThibaudDT\TrinityCoreModels\Characters;
+namespace ThibaudDT\TrinityCoreModels\World;
 
 use Illuminate\Database\Eloquent\Model as Eloquent;
 
@@ -18,7 +18,7 @@ use Illuminate\Database\Eloquent\Model as Eloquent;
  * @property \Carbon\Carbon $timestamp
  * @property int $speed
  *
- * @package ThibaudDT\TrinityCoreModels\Characters
+ * @package ThibaudDT\TrinityCoreModels\World
  */
 class Update extends Eloquent
 {
